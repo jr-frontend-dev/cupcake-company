@@ -1,0 +1,171 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #faf3bc;
+    background: #420600 url('../img/bg-texture.jpg') repeat;
+}
+
+a{
+    color: #4fb69f;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 1.750em;
+    letter-spacing: -1.5px;
+}
+h2{
+    font-size: 1.500em;
+    color: #b4c34f;
+}
+
+.btn{
+    color: #faf3bc;
+    background: #4fb69f;
+    padding: 15px 30px;
+    margin: 25px 0px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-shadow: -2px 1px 2px #000000;
+}
+.btn-small{
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: #4cc4a7;
+}
+
+nav ul{
+    margin: 120px 0 0 0;
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+nav ul li a{
+    color: #faf3bc;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #4cc4a7;
+}
+
+#intro{
+    margin: 75px 0 50px 0;
+}
+
+#featured-cupcake img{
+    border: 5px solid #faf3bc;    
+}
+
+#new-cupcakes img{
+    border: 5px solid #faf3bc;
+    margin-bottom: 22px;
+}
+
+#contact{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#contact p a:hover{
+    color: #4cc4a7;
+}
+
+.contact-f-t a i{
+    margin-right: 20px;
+    padding: 10px 20px;
+    color: #faf3bc;
+    border-radius: 25px;
+}
+.contact-f-t a i.fa-facebook{
+    background: #3B5998;
+}
+.contact-f-t a i.fa-twitter{
+    background: #1DA1F2;
+}
+
+span.number{
+    color: #b22316;
+}
+
+#copyright{
+    border-top: 5px solid #2a0400;
+    padding-top: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* CUPCAKES & PRICES */
+.cup-intro h1{
+    font-size: 36px;
+    margin: 75px 0;
+}
+
+.cupcake .grid_4 img{
+    width: 100%;
+    border: 5px solid #faf3bc;
+}
+
+.cupcake .grid_8 h2{
+    margin-top: 0;
+    padding-left: 20px;
+}
+.cupcake .grid_8 p{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.cupcake .grid_8 button{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* LOCATION */
+.store{
+    margin-bottom: 75px;
+}
+
+span.street{
+    font-style: italic;
+    font-weight: 200;
+}
+
+/* LOCATION */
+#contact-form{
+    margin-bottom: 55px;
+}
+
+#contact-form h2{
+    margin-bottom: 40px;
+}
+
+#contact-form form label{
+    font-size: 18px;
+    margin-left: 5px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#contact-form form input,
+#contact-form form textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background: #2a0400;
+    border: none;
+    border-radius: 15px;
+    color: #faf3bc;
+    font-size: 22px;
+}
+
+#contact-form form button{
+    margin-top: 10px;
+    background: #333;
+    padding: 15px 50px;
+}
+#contact-form form button:hover{
+    background: #344;
+}
